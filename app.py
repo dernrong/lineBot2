@@ -29,7 +29,7 @@ def callback():
     elif (userText == '3 ประเภท') :
         sendText(user,'เก่งมาก! แล้วรู้มั้ยว่ามีอะไรบ้าง')
     else :
-        sendText(user,'')
+        sendText(user,'ผิดแล้ว')
     return '',200
 
 def sendText(user, text):
