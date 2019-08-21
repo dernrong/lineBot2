@@ -24,7 +24,7 @@ def callback():
     userText = decoded['queryResult']['intent']['displayName']
     if (userText == 'สวัสดี') :
         sendText(user,'ดีจ้าา อยากเรียนดาราศาสตร์กับน้องใช่มั้ยย')
-    elif (userText == 'ใช่เลยย') :
+    elif (userText == 'ใช่เลย') :
         sendText(user,'งั้นมาเริ่มกันเลย รู้มั้ยครับว่าโครงสร้างของโลกมีกี่ประเภท')
     elif (userText == '3 ประเภท') :
         sendText(user,'เก่งมาก! แล้วรู้มั้ยว่ามีอะไรบ้าง')
