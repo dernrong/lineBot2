@@ -26,7 +26,7 @@ def callback():
         sendText(user,'ดีจ้าา อยากเรียนดาราศาสตร์กับน้องใช่มั้ยย')
     elif (userText == 'ใช่เลย') :
         sendText(user,'งั้นมาเริ่มกันเลย')
-    elif (userText == 'โครงสร้างของโลกมีกี่ส่วน แล้วมีอะไรบ้าง') :            
+    elif (userText == 'โครงสร้างของโลกมีกี่ส่วน แล้วมีอะไรบ้าง') :
     else :
         sendText(user,'ผิดแล้ว')
     return '',200
